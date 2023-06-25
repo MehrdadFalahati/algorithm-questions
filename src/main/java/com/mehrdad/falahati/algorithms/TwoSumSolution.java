@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * leetcode number one
- * https://leetcode.com/problems/two-sum/description/
+ * <a href="https://leetcode.com/problems/two-sum/description/">leetcode1</a>
  */
 public class TwoSumSolution {
 

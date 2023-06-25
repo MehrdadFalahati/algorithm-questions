@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * leetcode number 56
- * https://leetcode.com/problems/merge-intervals/description/
+ * <a href="https://leetcode.com/problems/merge-intervals/description/">leetcode56</a>
  */
 public class MergeIntervalSolution {
 
