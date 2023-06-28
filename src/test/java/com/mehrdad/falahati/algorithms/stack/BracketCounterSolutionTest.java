@@ -1,5 +1,6 @@
-package com.mehrdad.falahati.algorithms;
+package com.mehrdad.falahati.algorithms.stack;
 
+import com.mehrdad.falahati.algorithms.stack.BracketCounterSolution;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

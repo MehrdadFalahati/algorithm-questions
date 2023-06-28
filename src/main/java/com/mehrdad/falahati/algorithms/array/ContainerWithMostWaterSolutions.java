@@ -1,4 +1,4 @@
-package com.mehrdad.falahati.algorithms;
+package com.mehrdad.falahati.algorithms.array;
 
 /**
  * leetcode number 11

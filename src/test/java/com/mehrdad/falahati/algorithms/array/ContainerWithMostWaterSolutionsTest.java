@@ -1,5 +1,6 @@
-package com.mehrdad.falahati.algorithms;
+package com.mehrdad.falahati.algorithms.array;
 
+import com.mehrdad.falahati.algorithms.array.ContainerWithMostWaterSolutions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

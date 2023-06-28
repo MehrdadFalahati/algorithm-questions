@@ -1,4 +1,4 @@
-package com.mehrdad.falahati.algorithms;
+package com.mehrdad.falahati.algorithms.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
