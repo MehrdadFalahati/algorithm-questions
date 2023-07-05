@@ -1,7 +1,5 @@
 package com.mehrdad.falahati.algorithms.sorting;
 
-import java.util.stream.IntStream;
-
 public class SelectionSort {
 
     public void sort(int[] arrays) {
@@ -12,7 +10,6 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-
             swap(arrays, minIndex, i);
         }
     }
