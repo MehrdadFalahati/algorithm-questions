@@ -1,6 +1,6 @@
 package com.mehrdad.falahati.algorithms.sorting;
 
-public class SelectionSort {
+public class SelectionSort implements ISort {
 
     public void sort(int[] arrays) {
         for (var i = 0; i < arrays.length - 1; i++){
@@ -12,11 +12,5 @@ public class SelectionSort {
             }
             swap(arrays, minIndex, i);
         }
-    }
-
-    private void swap(int[] array, int minIndex, int index) {
-        int temp = array[minIndex];
-        array[minIndex] = array[index];
-        array[index] = temp;
     }
 }
