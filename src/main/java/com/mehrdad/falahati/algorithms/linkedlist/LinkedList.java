@@ -1,5 +1,8 @@
 package com.mehrdad.falahati.algorithms.linkedlist;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LinkedList {
     private ListNode head;
     private ListNode last;
@@ -39,5 +42,15 @@ public class LinkedList {
             current = current.next;
         }
         return array;
+    }
+
+    public static List<Integer> toList(ListNode head) {
+        List<Integer> list = new ArrayList<>();
+        var current = head;
+        while (current != null) {
+            list.add(current.val);
+            current = current.next;
+        }
+        return list;
     }
 }
