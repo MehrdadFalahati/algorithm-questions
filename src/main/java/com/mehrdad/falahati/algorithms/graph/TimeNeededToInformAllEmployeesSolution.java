@@ -24,7 +24,7 @@ public class TimeNeededToInformAllEmployeesSolution {
     }
 
     private int depthFist(int currentId, int[] informTime, Map<Integer, List<Integer>> adjacencyList) {
-        if (adjacencyList.get(currentId).size() == 0) {
+        if (adjacencyList.get(currentId).isEmpty()) {
             return 0;
         }
         int max = 0;
